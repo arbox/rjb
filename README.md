@@ -1,15 +1,24 @@
-# Rjb is Ruby-Java bridge using Java Native Interface.
+# `Rjb` is Ruby-Java Bridge
+[![RubyGem](https://img.shields.io/gem/v/rjb.svg)](https://rubygems.org/gems/rjb)
 
-The [Ruby Kaigi 2010](http://www.slideshare.net/artonx/j-ruby-kaigi-2010)
-Presentation on `Rjb`.
+RJB is a Bridge library which connects Ruby and Java code using the Java Native Interface.
 
-A short [introduction](https://www.artonx.org/collabo/backyard/?RubyJavaBridge)
-in English.
+Besides this `README` you can find information on `Rjb` in the following ressources:
 
-Some [examples](https://www.artonx.org/collabo/backyard/?RjbQandA) in
-Japanese, but the source code is clear for everybody.
+* the [Ruby Kaigi 2010](http://www.slideshare.net/artonx/j-ruby-kaigi-2010)
+  Presentation on `Rjb`;
+*  short [introduction](https://www.artonx.org/collabo/backyard/?RubyJavaBridge)
+   in English;
+* some [examples](https://www.artonx.org/collabo/backyard/?RjbQandA) in
+  Japanese, but the source code is clear for everybody.
+
+An in depth [introduction](https://www.artonx.org/collabo/backyard/?RjbMechanism)
+into the internals of `Rjb` is recommended for developers.
 
 # How to install
+
+An older [description](https://www.artonx.org/collabo/backyard/?HowToBuildRjb)
+how to build `Rjb` by `@arton` could be a very good starting point.
 
 You need to install Java2 sdk, and setup `JAVA_HOME` enviromental
 varible except for OS X. I assume that OS X's `JAVA_HOME` is reported
@@ -33,6 +42,10 @@ or
 # (in win32)
 ruby setup.rb install
 ```
+
+# Tutorial
+
+
 
 # How to test
 
